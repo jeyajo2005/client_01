@@ -35,3 +35,4 @@ Thumbs.db
 # Uploads
 **/uploads/selfies/*
 !**/uploads/selfies/.gitkeep
+
