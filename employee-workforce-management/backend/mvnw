@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+if [ -z "$JAVA_HOME" ] && [ -d "/c/Program Files/Java/jdk-17" ]; then
+    export JAVA_HOME="/c/Program Files/Java/jdk-17"
+fi
+if [ -f "/c/Users/welcome/apache-maven-3.9.16/bin/mvn" ]; then
+    exec "/c/Users/welcome/apache-maven-3.9.16/bin/mvn" "$@"
+else
+    exec mvn "$@"
+fi
+

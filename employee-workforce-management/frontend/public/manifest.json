@@ -1,0 +1,16 @@
+{
+  "short_name": "WorkforcePro",
+  "name": "WorkforcePro - Enterprise Workforce & Attendance Management",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "48x48 72x72 96x96 128x128 256x256 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "display": "standalone"
+}
+

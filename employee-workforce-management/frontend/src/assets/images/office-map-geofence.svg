@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <radialGradient id="map-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#0284c7" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="#0f172a"/>
+  <!-- Grid Lines -->
+  <path d="M0 80h600M0 160h600M0 240h600M0 320h600M120 0v400M240 0v400M360 0v400M480 0v400" stroke="#1e293b" stroke-width="1.5"/>
+  <!-- Geofence Perimeter -->
+  <circle cx="300" cy="200" r="130" fill="url(#map-glow)"/>
+  <circle cx="300" cy="200" r="130" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <!-- Office Marker -->
+  <circle cx="300" cy="200" r="16" fill="#1e3a8a" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="300" cy="200" r="6" fill="#38bdf8"/>
+  <text x="300" y="245" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">OFFICE GEOFENCE (250m)</text>
+</svg>
+
